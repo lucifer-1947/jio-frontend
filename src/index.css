@@ -1,0 +1,71 @@
+:root {
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+	--bg-color: #ffffff;
+	--primary: #0078ad;
+	--bg-secondary: #0078ad;
+	--bg-highlight: #00b259;
+}
+
+/* Setting defaults for all the html elements*/
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+	scrollbar-color: #ffffff00;
+
+}
+
+html,
+body {
+	max-width: 100vw;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+	display: block;
+	padding: 20px;
+
+	background-color: var(--bg-color);
+}
+
+a {
+	font-weight: 500;
+	color: #646cff;
+	text-decoration: inherit;
+}
+a:hover {
+	color: #535bf2;
+}
+
+h1 {
+	font-size: 3.2em;
+	line-height: 1.1;
+}
+
+button {
+	border-radius: 8px;
+	border: 1px solid transparent;
+	padding: 0.6em 1.2em;
+	font-size: 0.8em;
+	font-weight: 500;
+	font-family: inherit;
+
+	cursor: pointer;
+	transition: border-color 0.25s;
+}
+button:hover {
+	border-color: var(--bg-secondary);
+}
+button:focus,
+button:focus-visible {
+	outline: 4px auto -webkit-focus-ring-color;
+}
+
+legend {
+	margin-left: 20px;
+	padding: 10px;
+}

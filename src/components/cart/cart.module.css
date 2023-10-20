@@ -1,0 +1,11 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid grey;
+	border-radius: 24px;
+	width: 100%;
+}
+
+.container ol {
+	width: 100%;
+}

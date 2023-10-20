@@ -1,0 +1,13 @@
+.container {
+	width: 100%;
+	border: 1px solid grey;
+	border-radius: 24px;
+}
+
+.container ol {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+}
