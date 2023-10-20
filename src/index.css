@@ -16,7 +16,6 @@
 	-ms-overflow-style: none; /* IE and Edge */
 	scrollbar-width: none; /* Firefox */
 	scrollbar-color: #ffffff00;
-
 }
 
 html,
@@ -69,3 +68,5 @@ legend {
 	margin-left: 20px;
 	padding: 10px;
 }
+
+

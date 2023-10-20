@@ -41,7 +41,9 @@ export default function DiscountComponent() {
 				<>
 					<h2>{message}</h2>
 					<p>
-						Note:since state is stored locally , reloading age removes the state
+						Note:since state is stored locally , reloading age removes the state{" "}
+						<br />
+						CORRECT GUESS {number}
 					</p>
 					{offers.map((item, index) => (
 						<img
