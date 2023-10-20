@@ -9,6 +9,18 @@
 .inner_container {
 	width: 100%;
 	padding: 10px;
+	animation: reveal linear both;
+	animation-timeline: view();
+	animation-range: cover 0% contain 0%;
+}
+
+@keyframes reveal {
+	from {
+		transform: scale(0);
+	}
+	to {
+		transform: scale(1);
+	}
 }
 
 .form fieldset,
